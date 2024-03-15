@@ -22,12 +22,6 @@ body {
     place-items: center;
     min-height: 100dvh;
 
-    .background__pattern__top {
-        background-image: url("images/bg-pattern-top.svg");
-        background-position: -62% 54%;
-        background-repeat: no-repeat;
-    }
-
     main {
         background-color: #fff;
         background-image: url("images/bg-pattern-card.svg");
