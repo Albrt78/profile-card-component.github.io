@@ -33,7 +33,6 @@ Frontend Mentor is an online platform that provides challenges for web developer
 -   Semantic HTML5 markup
 -   CSS custom properties
 -   Flexbox
--   CSS Grid
 -   [SCSS](https://sass-lang.com/) - CSS Preprocessor
 
 ## Author
