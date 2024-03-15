@@ -12,12 +12,7 @@ body {
   background-color: hsl(185, 75%, 39%);
   display: grid;
   place-items: center;
-  min-height: 160dvh;
-}
-body .background__pattern__top {
-  background-image: url("images/bg-pattern-top.svg");
-  background-position: -62% 54%;
-  background-repeat: no-repeat;
+  min-height: 100dvh;
 }
 body main {
   background-color: #fff;
