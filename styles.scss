@@ -1,0 +1,101 @@
+// Primary
+$Dark-cyan: hsl(185, 75%, 39%);
+$Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+$Dark-grayish-blue: hsl(227, 10%, 46%);
+
+// Neutral
+$Dark-gray: hsl(0, 0%, 59%);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-color: $Dark-cyan;
+    display: grid;
+    place-items: center;
+    min-height: 160dvh;
+
+    .background__pattern__top {
+        background-image: url("images/bg-pattern-top.svg");
+        background-position: -62% 54%;
+        background-repeat: no-repeat;
+    }
+
+    main {
+        background-color: #fff;
+        background-image: url("images/bg-pattern-card.svg");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+        width: 350px;
+        height: 375px;
+        border-radius: 1rem;
+        padding-top: 5.5rem;
+        text-align: center;
+        font-family: "Kumbh Sans", sans-serif;
+
+        img {
+            width: 6.6rem;
+            border-radius: 50%;
+            border: 7px solid #fff;
+        }
+
+        .profile__detail {
+            font-size: 1.17rem;
+            margin-top: 0.93rem;
+            color: $Very-dark-desaturated-blue;
+            font-weight: 700;
+
+            span {
+                font-weight: 400;
+                color: $Dark-grayish-blue;
+            }
+        }
+
+        .profile__address {
+            margin-top: 0.4rem;
+            font-size: 0.9rem;
+            color: $Dark-grayish-blue;
+        }
+
+        .profile__social__media__wrapper {
+            display: flex;
+            justify-content: center;
+            gap: 3.5rem;
+            border-top: 1px solid $Dark-grayish-blue;
+            margin-top: 1.7rem;
+            padding-top: 1.4rem;
+
+            .profile__followers,
+            .profile__likes,
+            .profile__photos {
+                h2 {
+                    font-size: 1.23rem;
+                    color: $Very-dark-desaturated-blue;
+                }
+
+                p {
+                    font-size: 0.8rem;
+                    color: $Dark-grayish-blue;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+
+        a {
+            color: hsl(228, 45%, 44%);
+        }
+    }
+}

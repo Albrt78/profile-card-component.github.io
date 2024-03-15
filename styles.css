@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  display: grid;
+  place-items: center;
+  min-height: 160dvh;
+}
+body .background__pattern__top {
+  background-image: url("images/bg-pattern-top.svg");
+  background-position: -62% 54%;
+  background-repeat: no-repeat;
+}
+body main {
+  background-color: #fff;
+  background-image: url("images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  width: 350px;
+  height: 375px;
+  border-radius: 1rem;
+  padding-top: 5.5rem;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+body main img {
+  width: 6.6rem;
+  border-radius: 50%;
+  border: 7px solid #fff;
+}
+body main .profile__detail {
+  font-size: 1.17rem;
+  margin-top: 0.93rem;
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+}
+body main .profile__detail span {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+body main .profile__address {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  color: hsl(227, 10%, 46%);
+}
+body main .profile__social__media__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+  border-top: 1px solid hsl(227, 10%, 46%);
+  margin-top: 1.7rem;
+  padding-top: 1.4rem;
+}
+body main .profile__social__media__wrapper .profile__followers h2,
+body main .profile__social__media__wrapper .profile__likes h2,
+body main .profile__social__media__wrapper .profile__photos h2 {
+  font-size: 1.23rem;
+  color: hsl(229, 23%, 23%);
+}
+body main .profile__social__media__wrapper .profile__followers p,
+body main .profile__social__media__wrapper .profile__likes p,
+body main .profile__social__media__wrapper .profile__photos p {
+  font-size: 0.8rem;
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+body .attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=styles.css.map */
