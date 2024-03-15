@@ -21,12 +21,12 @@ Frontend Mentor is an online platform that provides challenges for web developer
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Profile card component](./Profile-card-component-screenshot.png)
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Profile card component](https://github.com/Albrt78/profile-card-component.github.io)
+-   Live Site URL: [Profile card component](https://albrt78.github.io/profile-card-component.github.io/)
 
 ### Built with
 
