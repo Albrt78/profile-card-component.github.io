@@ -18,9 +18,16 @@ $Dark-gray: hsl(0, 0%, 59%);
 
 body {
     background-color: $Dark-cyan;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     min-height: 100dvh;
+    background-image: url("images/bg-pattern-top.svg"),
+        url("images/bg-pattern-bottom.svg");
+    background-position: right 53vw bottom 14vh, left 40vw top 47vh;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
 
     main {
         background-color: #fff;
@@ -63,7 +70,7 @@ body {
             display: flex;
             justify-content: center;
             gap: 3.5rem;
-            border-top: 1px solid $Dark-grayish-blue;
+            border-top: 1px solid lightgray;
             margin-top: 1.7rem;
             padding-top: 1.4rem;
 
